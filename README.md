@@ -1,22 +1,39 @@
-# About me
-Geospatial data analyst focused on measuring the performance of our land use and transportation systems. 
+# About me :wave:
+Geospatial data analyst with 5+ years of experience spanning the full life cycle 
+of applied research, from project scoping and stakeholder communication to data 
+wrangling and interactive visualization. 
 
-I have 5+ years of work experience spanning the full spectrum of data analytics, from project scoping and stakeholder communication to data engineering and interactive visualization. I currently serve as a Senior Data Analyst at the MassDOT/MBTA Office of Performance Management and Innovation, where I develop new and improved measures of statewide transportation performance to convey key insights to public, legislative, and internal audiences. Previously, I researched demographic and economic trends to help inform urban planning and policy at the City of Boston. 
+Amazon (2019-2021) | City of Boston (2022-2024) | MassDOT/MBTA (2024-present)
+-------- | ------- | -------
+Bin Meister | Research Associate | Senior Data Analyst
+built reports to drive operational improvements at a warehouse | researched post-COVID trends in economic activity | developed transportation performance metrics
 
-section on Urban Informatics program and research focus
+In spring 2025, I completed my MS in Urban Informatics at Northeastern University,
+where I spent a lot of time thinking about how we measure the performance of our
+land use and transportation systems.
 
-What's in a measure?
+# What's in a measure? :straight_ruler:
 
-The measures we choose shape the stories we tell. All measures are imperfect proxies for the truths we care about - "raw data" is an oxymoron. All data are "cooked," it's our responsibility to cook in a way that clarifies and enhances the underlying ingredients (truths) rather than obscuring them. 
+Knowing our world empowers us to take action to shape it. When we don't know what 
+to do, we often turn to measurement, hoping that the power of raw data can 
+soothe our doubts and melt away any ambiguities about what to do. 
+
+In truth, though, "raw data" is an oxymoron. All data are "cooked" to varying 
+degrees through the process of measurement and then "consumed" through storytelling. 
+Data analysts are thus pulled in multiple directions: we must tell compelling stories 
+to convey the value of our measurements, but we must also manage expectations 
+by accounting for the limitations of our measures in proxying the truths that
+decision makers really care about. 
 
 transition sentence into public transit - maybe something about how its benefits are diffuse and hard to measure
 or maybe something more general about mobility vs accessibility paradigms
 
 Make sure to make good use of visuals, and minimize the use of text, linking to more extensive reports, as needed.
 
+will this measure section introduce concepts about measurements that I can use later on?
+Is ridership a more "raw" while access is more "cooked"?
 
-
-# Measuring Success for Public Transit
+# Measuring Success for Public Transit :trolleybus:
 why public transit matters (safety, equity, climate, health, and economic development)
 what the stakes are for how we measure it
 
