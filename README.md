@@ -1,51 +1,74 @@
 # About me :wave:
-Geospatial data analyst with 5+ years of experience spanning the full life cycle 
-of applied research, from project scoping and stakeholder communication to data 
+Geospatial data analyst with 5+ years of experience spanning the full analytics 
+life cycle, from project scoping and stakeholder communication to data 
 wrangling and interactive visualization. 
 
-Amazon (2019-2021) | City of Boston (2022-2024) | MassDOT/MBTA (2024-present)
--------- | ------- | -------
+*<p align="center">Table 1: Ethan's analytical career, in brief</p>*
+
+Amazon <br>(2019-2021) | City of Boston <br>(2022-2024) | MassDOT/MBTA <br>(2024-present)
+:--------: | :------: | :-------:
 Bin Meister | Research Associate | Senior Data Analyst
-built reports to drive operational improvements at a warehouse | researched post-COVID trends in economic activity | developed transportation performance metrics
+built reports to improve warehouse operations | researched post-COVID demographic and economic trends | developed transportation performance metrics
 
 In spring 2025, I completed my MS in Urban Informatics at Northeastern University,
-where I spent a lot of time thinking about how we measure the performance of our
-land use and transportation systems.
-
-# What's in a measure? :straight_ruler:
-
-Knowing our world empowers us to take action to shape it. When we don't know what 
-to do, we often turn to measurement, hoping that the power of raw data can 
-soothe our doubts and melt away any ambiguities about what to do. 
-
-In truth, though, "raw data" is an oxymoron. All data are "cooked" to varying 
-degrees through the process of measurement and then "consumed" through storytelling. 
-Data analysts are thus pulled in multiple directions: we must tell compelling stories 
-to convey the value of our measurements, but we must also manage expectations 
-by accounting for the limitations of our measures in proxying the truths that
-decision makers really care about. 
-
-transition sentence into public transit - maybe something about how its benefits are diffuse and hard to measure
-or maybe something more general about mobility vs accessibility paradigms
-
-Make sure to make good use of visuals, and minimize the use of text, linking to more extensive reports, as needed.
-
-will this measure section introduce concepts about measurements that I can use later on?
-Is ridership a more "raw" while access is more "cooked"?
+where I explored how we measure the performance of our public transportation 
+systems through several data analysis & research projects. 
 
 # Measuring Success for Public Transit :trolleybus:
-why public transit matters (safety, equity, climate, health, and economic development)
-what the stakes are for how we measure it
+Public transit can deliver both direct benefits to riders (through affordable 
+connections to jobs and services) and indirect benefits to non-riders (through 
+congestion relief and emissions mitigation). To enssure that resources are
+prioritized for the transit investments that will do the most good, careful 
+con consideration of the measures we use to evaluate public transit performance
+is required, since different measures can favor different investments. 
+
+Two of the most important measures that are used to evaluate the overall
+performance of public transit systems are:
+-  **ridership** (how many trips people take)
+-  **access** (how many destinations people can reach)
+
+Ridership is a 
+measure of actual behavior, while access is a measure of potential or opportunity.
+
+<details>
+
+<summary><i>Tangent: do all transit agencies have the same goals and measures of success?</i></summary>
+--
+
+*Most transit agencies don't seek to narrowly maximize ridership or access at an
+aggregate level. In fact, a large portion of transit service is explicitly
+designed not to maximize total ridership or access, but instead to provide some
+sufficient level of service to a wide swath of communities, a dynamic which
+Jarrett Walker calls the "<a href="https://humantransit.org/2018/02/basics-the-ridership-coverage-tradeoff.html">ridership-coverage tradeoff</a>".*
+
+*However, in spite of the different value judgments that different agencies and
+communities make about how to distribute service, measures of ridership and
+access remain widely used across transit agencies, especially for evaluating
+large-scale service changes.*
+
+</details>
 
 ## Ridership
 why ridership is so important to measure (benefits for both users and non-users)
 
-why it should not be the only measure of public transit performance 
+Ridership is a near-ubiquitous measure of the success of public transit, both
+because it's a barometer for the value people get from using transit and because
+public transit usage has mostly positive externalities on the rest of society. 
 
-2. For each project:
+However, both the user and social benefits of public transit tend to increase in 
+proportion with the number of transit trips people take, making ridership one of 
+the most ubiquitous measures of public transit performance.
 
-a. The problem or question you addressed
+Ridership measures what people are doing with transit (behavior), while access 
+measures what people could do with transit (potential). Ridership is more established,
+while destination access is relatively recent. Both are not fully within 
+transit agencies' control / are functions of both land use and transportation. 
+but ridership also fluctuates with changes in other modes (eg parking policy, gas prices)
+whereas access is (mostly) only a function of land use and the mode-specific characteristics. 
 
-b. The urban informatics methods you used to address them
 
-c. The urban policy and/or management implications
+[link to project 1](https://mciethan.github.io/project1.html)
+
+[link to project 2](https://mciethan.github.io/project2.html)
+
+[link to project 3](https://mciethan.github.io/project3.html)
