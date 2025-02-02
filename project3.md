@@ -1,10 +1,10 @@
-# Do "Minor" Service Changes Make a "Major" Difference on Measures of Destination Access via Transit?
+# Evaluating the Impacts of Public Transit Schedule Variability on Destination Access
 
-:information_source: | About this project
--: | -- 
-Author: | Ethan McIntosh 
-Course: | Urban Informatics Practicum (PPUA 6966)
-Date: | Spring 2025
+| Project info | :information_source: |
+| -----: | :------ |
+| Author: | Ethan McIntosh |
+| Course: | Practicum (PPUA 6966) |
+| Date: | Spring 2025 |
 
 ## Summary
 
