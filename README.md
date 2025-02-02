@@ -5,10 +5,10 @@ wrangling and interactive visualization.
 
 *<p align="center">Table 1: Ethan's analytical career, in brief</p>*
 
-Amazon <br>(2019-2021) | City of Boston <br>(2022-2024) | MassDOT/MBTA <br>(2024-present)
-:--------: | :------: | :-------:
-Bin Meister | Research Associate | Senior Data Analyst
-built reports to improve warehouse operations | researched post-COVID demographic and economic trends | developed transportation performance metrics
+| Amazon <br>(2019-2021) | City of Boston <br>(2022-2024) | MassDOT/MBTA <br>(2024-present) |
+| :--------: | :------: | :-------: |
+| Bin Meister | Research Associate | Senior Data Analyst |
+| built reports to improve warehouse operations | researched post-COVID demographic and economic trends | developed transportation performance metrics | 
 
 In spring 2025, I completed my MS in Urban Informatics at Northeastern University,
 where I explored how we measure the performance of our public transportation 
@@ -49,6 +49,8 @@ both metrics remain in widespread use, especially for evaluating large-scale
 service changes.</i>
 
 </details>
+
+--
 
 ## Ridership
 One reason why ridership is such an important and ubiquitous measure of public 
