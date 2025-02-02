@@ -1,7 +1,7 @@
 # Using Open Data to Enhance Station-Level Ridership Models
 
 | :information_source: | About this project |
-| ----- : | ------ |
+| -----: | :------ |
 | Authors: | Emmett Greenberg, Ted Banken, and Ethan McIntosh |
 | Course: | Transportation Demand Forecasting (CIVE 7381) |
 | Date: | Fall 2024 |

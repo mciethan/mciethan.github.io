@@ -6,7 +6,7 @@ wrangling and interactive visualization.
 *<p align="center">Table 1: Ethan's analytical career, in brief</p>*
 
 | Amazon <br>(2019-2021) | City of Boston <br>(2022-2024) | MassDOT/MBTA <br>(2024-present) |
-|: -------- :|: ------ :|: ------- :|
+| :--------: | :------: | :-------: |
 | Bin Meister | Research Associate | Senior Data Analyst |
 | built reports to improve warehouse operations | researched post-COVID demographic and economic trends | developed transportation performance metrics | 
 
