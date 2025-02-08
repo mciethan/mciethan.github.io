@@ -15,7 +15,7 @@ Not only does public transit deliver direct benefits to riders through affordabl
 
 How can we ensure that the money we spend on public transit is prioritized for the investments that will do the most good? An important step is to carefully consider which metrics we use to evaluate public transit performance, since different metrics can favor different investments. 
 
-Two of the most important kinds of metric that are used to evaluate overall public transit performance and project future benefits are:
+Two of the most important kinds of metric that are used to evaluate overall public transit performance and estimate future benefits are:
 -  **ridership** (how many trips people take)
 -  **access** (how many places people can reach)
 
@@ -35,7 +35,7 @@ _
 One reason why ridership is such an important and ubiquitous metric of public transit performance is that both the direct and indirect benefits of transit tend to increase in proportion with the number of transit trips people take.
 
 I analyzed some of the factors that predict MBTA subway ridership and found that:
-* higher ridership comes not just from more frequent and faster train connections, but also from mixed land uses and walkability in the neighborhoods surrounding stations
+* higher ridership comes from not just more frequent and faster train connections, but also from mixed land uses and walkability in the neighborhoods surrounding stations
 * many of the factors that predict high ridership are highly correlated with each other, making conventional modeling techniques difficult
 
 ![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/ridership_figure1.png)
