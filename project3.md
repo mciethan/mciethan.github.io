@@ -8,19 +8,22 @@
 
 ## Summary
 
-problem context paragraph
+The importance of day-to-day public transit operations in shaping destination access outcomes is increasingly being recognized by transportation practitioners, but the impacts of periodic schedule adjustments are poorly understood and rarely accounted for when evaluating the impacts of larger projects.
 
 This study helps answer the following questions:
-* 
+* How sensitive are measures of destination access to quarterly or periodic adjustments in scheduled public transit service? 
+* How might practitioners and researchers better account for minor schedule adjustments when measuring destination access via transit?
 
-key findings / implications paragraph
+[two sentences with key findings / implications]
 
 ## Data Sources and Methods
 
-2. For each project:
+I utilized open-source datasets and R packages to measure job access via transit for a series of dates across multiple metro areas using block-level population and jobs data from the US Census, archived transit schedules in the General Transit Feed Specification (GTFS) format, and walking routes from OpenStreetMap.
 
-a. The problem or question you addressed
+[image TBD]
 
-b. The urban informatics methods you used to address them
+All of the code for our data processing and model building steps is available on the project's Github repository.
 
-c. The urban policy and/or management implications
+## Results and Analysis
+
+[results, more images, and more policy implications]
