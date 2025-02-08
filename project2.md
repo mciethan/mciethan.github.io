@@ -1,7 +1,7 @@
 # Measuring the Effects of Public Transit Operations on Job Access in Boston
 
-| Project info | :information_source: |
-| ----: | :----- |
+| About the project | :information_source: |
+| :---- | :----- |
 | Author: | Ethan McIntosh |
 | Course: | Advanced Spatial Analysis (PPUA 7237) |
 | Date: | Spring 2024 |
@@ -23,5 +23,7 @@ I found that changes in job access due to changes in frequency have a highly une
 a. The problem or question you addressed
 
 b. The urban informatics methods you used to address them
+
+## Results and Analysis
 
 c. The urban policy and/or management implications

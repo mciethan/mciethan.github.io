@@ -38,7 +38,7 @@ I analyzed some of the factors that predict MBTA subway ridership and found that
 * higher ridership comes not just from more frequent and faster train connections, but also from mixed land uses and walkability in the neighborhoods surrounding stations
 * many of the factors that predict high ridership are highly correlated with each other, making conventional modeling techniques difficult
 
-![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](assets/img/ridership_figure1.png)
+![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/ridership_figure1.png)
 
 View full project: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
 
@@ -50,7 +50,7 @@ I compared how many jobs people could access via MBTA transit service before and
 * improving operating frequencies on existing transit infrastructure can yield job access benefits that dwarf those provided by major expansions of infrastructure
 * seemingly universal transit frequency changes can have highly unequal impacts on job access for different neighborhoods and populations
 
-![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](assets/img/access_chg_raceethn.png)
+![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/access_chg_raceethn.png)
 
 View full project: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
 

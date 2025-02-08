@@ -40,14 +40,14 @@ All of the code for our data processing and model building steps is available on
 
 We found that the strongest predictors of MBTA subway ridership were high train frequencies, connections to other routes and modes, and walkable, mixed-land-use station areas. While several other variables were not statistically significant predictors of ridership, almost all variables predicted ridership in the directions we expected. 
 
-![Table 2: Summary of Fall 2023 Weekday Models](assets/img/ridership_table2.png)
+![Table 2: Summary of Fall 2023 Weekday Models](docs/assets/img/ridership_table2.png)
 
 Going against our hypothesis, the addition of non-traditional variables of non-home, non-work trip generators such as colleges, hospitals, and hotels did not meaningfully improve model performance for either our models of the full MBTA network or our Boston-only models (which we built because for some variables, we only had data from within the city of Boston). Unfortunately, our models likely suffered from specification issues, and some variables had to be removed from the model due to high multicollinearity (measured using variance inflation factors) among the independent variables. 
 
 That being said, our models achieved a decent overall fit without systematic bias toward particular directions, routes, or neighborhoods, as confirmed through both visualizations like the ones below and through statistical tests described in [our full report](https://docs.google.com/document/d/1bCEKMQc2sCZsuZDSd6N0AVITrZFgVIpXqUhIXhQ5qhY/edit?usp=sharing).
 
-![Figure 2: Predicted vs. Actual Fall 2023 Weekday Boardings by Route-Station, full base model](assets/img/ridership_figure2.png)
+![Figure 2: Predicted vs. Actual Fall 2023 Weekday Boardings by Route-Station, full base model](docs/assets/img/ridership_figure2.png)
 
-![Figure 4: Map of Prediction Errors (Fall 2023 weekday boardings, full base model)](assets/img/ridership_figure4.png)
+![Figure 4: Map of Prediction Errors (Fall 2023 weekday boardings, full base model)](docs/assets/img/ridership_figure4.png)
 
  While our models' absolute errors in predicting station-level ridership are still likely too large for them to be directly useful in transit planning or operations applications, our findings echo previous literature about the ridership impacts of not just transit service characteristics like frequency and connectivity, but also built-environment factors like land use mixing and walkability around transit stations.

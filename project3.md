@@ -1,7 +1,7 @@
 # Evaluating the Impacts of Public Transit Schedule Variability on Destination Access
 
-| Project info | :information_source: |
-| -----: | :------ |
+| About the project | :information_source: |
+| :----- | :------ |
 | Author: | Ethan McIntosh |
 | Course: | Practicum (PPUA 6966) |
 | Date: | Spring 2025 |
