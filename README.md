@@ -13,9 +13,9 @@ In spring 2025, I completed my MS in Urban Informatics at Northeastern Universit
 # Measuring Success for Public Transit :trolleybus:
 Not only does public transit deliver direct benefits to riders through affordable connections to jobs and services, but it also has indirect benefits to non-riders through congestion relief and reduced emissions. Like any infrastructure, though, public transit costs money to build and operate. 
 
-How can we ensure that resources are prioritized for the transit investments that will do the most good? An important step is to carefully consider which metrics we use to evaluate public transit performance, since different metrics can favor different investments. 
+How can we ensure that the money we spend on public transit is prioritized for the investments that will do the most good? An important step is to carefully consider which metrics we use to evaluate public transit performance, since different metrics can favor different investments. 
 
-Two of the most important kinds of metric that are used to evaluate the overall performance of public transit systems are:
+Two of the most important kinds of metric that are used to evaluate overall public transit performance and project future benefits are:
 -  **ridership** (how many trips people take)
 -  **access** (how many places people can reach)
 
@@ -47,7 +47,7 @@ View full project: [Using Open Data to Enhance Station-Level Ridership Models](h
 Given transportation’s fundamental purpose of connecting people to valued destinations, transportation systems and investments are increasingly measured by how many destinations they enable people to reach, rather than by how they facilitate mobility (more and faster travel) alone.
 
 I compared how many jobs people could access via MBTA transit service before and after a round of service cuts, showing that:
-* improving operating frequencies on existing transit infrastructure can yield job access benefits that dwarf those provided by major expansions of infrastructure
+* improving operating frequencies on existing transit infrastructure can yield job access gains that dwarf those provided by major expansions of infrastructure
 * seemingly universal transit frequency changes can have highly unequal impacts on job access for different neighborhoods and populations
 
 ![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/access_chg_raceethn.png)
