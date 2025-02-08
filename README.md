@@ -35,23 +35,29 @@ _
 One reason why ridership is such an important and ubiquitous metric of public transit performance is that both the direct and indirect benefits of transit tend to increase in proportion with the number of transit trips people take.
 
 I analyzed some of the factors that predict MBTA subway ridership and found that:
-* higher ridership comes not just from more frequent and faster trains, but also from mixed land uses and walkability in the areas surrounding stations
+* higher ridership comes not just from more frequent and faster train connections, but also from mixed land uses and walkability in the neighborhoods surrounding stations
 * many of the factors that predict high ridership are highly correlated with each other, making conventional modeling techniques difficult
+
+![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](assets/img/ridership_figure1.png)
 
 View full project: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
 
 ## Access
 
-Given transportation’s fundamental purpose of connecting people to valued destinations, transportation systems and investments are increasingly measured by how many additional destinations they enable people to reach, rather than by how they facilitate mobility (more and faster travel) alone.
+Given transportation’s fundamental purpose of connecting people to valued destinations, transportation systems and investments are increasingly measured by how many destinations they enable people to reach, rather than by how they facilitate mobility (more and faster travel) alone.
 
 I compared how many jobs people could access via MBTA transit service before and after a round of service cuts, showing that:
-* seemingly universal transit frequency changes can have highly unequal impacts on job access for different neighborhoods and populations
 * improving operating frequencies on existing transit infrastructure can yield job access benefits that dwarf those provided by major expansions of infrastructure
+* seemingly universal transit frequency changes can have highly unequal impacts on job access for different neighborhoods and populations
+
+![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](assets/img/access_chg_raceethn.png)
 
 View full project: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
 
-Expanding on this line of work, I investigated the changes in job access resulting from the minor schedule adjustments that transit agencies periodically make throughout a given year, revealing that:
+Expanding on this line of work, I investigated the changes in job access resulting from the seemingly minor schedule adjustments that transit agencies periodically make throughout a given year, revealing that:
 * transit schedule adjustments produce substantial and non-random quarter-to-quarter variability in job access
 * accounting for day-to-day variability can yield more robust measures of access with which to evaluate longer-term transportation investments
+
+[image TBD]
 
 View full project: [Evaluating the Impacts of Public Transit Schedule Variability on Destination Access](https://mciethan.github.io/project3.html)
