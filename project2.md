@@ -18,14 +18,9 @@ Using a June 2022 round of MBTA subway service cuts as a case study, I found tha
 
 ## Data Sources and Methods
 
-To measure the number of jobs accessible within 30 minutes of journey time via public transit and walking for residents of the MBTA rapid transit service area, I applied network analysis techniques in ArcGIS Pro to process granular data on population, jobs, transit schedules, and walking routes from the following sources:
+To measure the number of jobs accessible within 30 minutes of journey time via public transit and walking for residents of the MBTA rapid transit service area, I applied network analysis techniques in ArcGIS Pro to process granular data on population, jobs, transit schedules, and walking routes from the US Census, the MBTA's General Transit Feed Specification (GTFS) feeds, and OpenStreetMap.
 
-| Data Source | Variable(s) |
-| :---- | :----- |
-| OpenStreetMap | line features for streets and paths |
-| MBTA | Network-wide transit schedules per day and time from General Transit Feed Specification (GTFS) feeds |
-| US Census (decennial) | population by race/ethnicity per census block |
-| US Census (LODES) | jobs per census block |
+![Diagram of data sources and ArcGIS Pro tools used to calculate job access](docs/assets/img/access_methods.png)
 
 I also built an R script to generate descriptive statistics of transit frequencies from GTFS feeds and used Excel and ArcGIS Pro to analyze and visualize the network analysis results.
 
@@ -51,6 +46,6 @@ To put these numbers into perspective, no neighborhoods gained access to more th
 
 | June 2022 MBTA subway frequency cuts | December 2022 opening of GLX Medford Branch |
 | --- | --- |
-| ![](docs/assets/img/absolute_chg-1.png) | ![](docs/assets/img/glx-medford-chg.png) |
+| ![Job Accessibility Losses from 6/15/2022 to 6/29/2022 by Census Block for Public Transit Commutes](docs/assets/img/absolute_chg-1.png) | ![Relative Job Accessibility Gains from 12/9/2022 to 12/16/2022 by Census Block for Public Transit Commutes](docs/assets/img/glx-medford-chg.png) |
 
 These results illustrate that when changes to transit frequencies, even across-the-board ones, are applied to uneven and network-dependent geographies of jobs and people, destination access outcomes can be large and unequal across neighborhoods and populations. For policy makers, this project demonstrates the applicability of destination access analysis for assessing the social and geographic equity impacts of transit operations, not just capital projects. 
