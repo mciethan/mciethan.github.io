@@ -17,7 +17,7 @@ How can we ensure that the money we spend on public transit is prioritized for t
 
 Two of the most important kinds of metric that are used to evaluate overall public transit performance and estimate future benefits are:
 -  **ridership** (how many trips people take)
--  **access** (how many places people can reach)
+-  **destination access** (how many places people can reach)
 
 <details>
 
@@ -34,15 +34,21 @@ _
 ## Ridership
 One reason why ridership is such an important and ubiquitous metric of public transit performance is that both the direct and indirect benefits of transit tend to increase in proportion with the number of transit trips people take.
 
-I analyzed some of the factors that predict MBTA subway ridership and found that:
+I analyzed some of the factors that predict Massachusetts Bay Transportation Authority (MBTA) subway ridership and found that:
 * higher ridership comes from not just more frequent and faster train connections, but also from mixed land uses and walkability in the neighborhoods surrounding stations
 * many of the factors that predict high ridership are highly correlated with each other, making conventional modeling techniques difficult
 
 ![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/ridership_figure1.png)
 
-View full project: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
+#### __Key Methods__:
+regression modeling at the station level using R and Python scripting
 
-## Access
+#### __Key data sources__:
+public transit schedules, US Census demographic and jobs data, City of Boston license data, MassGIS parcel data, National Center for Education Statistics college enrollment data
+
+#### __View full project__: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
+
+## Destination Access: Part 1
 
 Given transportation’s fundamental purpose of connecting people to valued destinations, transportation systems and investments are increasingly measured by how many destinations they enable people to reach, rather than by how they facilitate mobility (more and faster travel) alone.
 
@@ -50,14 +56,28 @@ I compared how many jobs people could access via MBTA transit service before and
 * improving operating frequencies on existing transit infrastructure can yield job access gains that dwarf those provided by major expansions of infrastructure
 * seemingly universal transit frequency changes can have highly unequal impacts on job access for different neighborhoods and populations
 
-![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/access_chg_raceethn.png)
+![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/access_chg_raceethn_errorbars.png)
 
-View full project: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
+#### __Key Methods__:
+network analysis (transit + walking) at the census block level using ArcGIS Pro workflow
+
+#### __Key data sources__:
+public transit schedules, US Census demographic and jobs data, OpenStreetMap walking network data
+
+#### __View full project__: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
+
+## Destination Access: Part 2
 
 Expanding on this line of work, I investigated the changes in job access resulting from the seemingly minor schedule adjustments that transit agencies periodically make throughout a given year, revealing that:
-* transit schedule adjustments produce substantial and non-random quarter-to-quarter variability in job access
+* small adjustments to transit vehicle frequencies and timings can produce substantial and non-random differences in job access
 * accounting for day-to-day variability can yield more robust measures of access with which to evaluate longer-term transportation investments
 
 [image TBD]
 
-View full project: [Evaluating the Impacts of Public Transit Schedule Variability on Destination Access](https://mciethan.github.io/project3.html)
+#### __Key Methods__:
+network analysis (transit + walking) at the census block level using R scripting
+
+#### __Key data sources__:
+public transit schedules, US Census demographic and jobs data, OpenStreetMap walking network data
+
+#### __View full project__: [Evaluating the Impacts of Public Transit Schedule Variability on Destination Access](https://mciethan.github.io/project3.html)
