@@ -1,4 +1,4 @@
-# Evaluating the Impacts of Public Transit Schedule Variability on Destination Access
+# Measuring the Destination Access Impacts of Public Transit Service Adjustments
 
 | About the project | :information_source: |
 | :----- | :------ |
@@ -8,22 +8,32 @@
 
 ## Summary
 
-The importance of day-to-day public transit operations in shaping destination access outcomes is increasingly being recognized by transportation practitioners, but the impacts of periodic schedule adjustments are poorly understood and rarely accounted for when evaluating the impacts of larger projects.
+Public transit agencies make regular, often small adjustments to scheduled vehicle frequencies and trip times in response to changing operating conditions. However, most analyses of social equity and destination access in public transit service delivery are limited to understanding the potential impacts of larger-scale service changes, such as route extensions or network redesigns. For example, current Title VI policies only require US-based transit agencies to examine disproportionate impacts on protected populations for a subset of service changes that are considered "major", as defined by percentage change thresholds in quantity-of-service measures like revenue vehicle hours or trip frequencies on a given route or mode. Smaller, more regular changes in transit service typically do not meet agency-defined Title VI thresholds, and their impacts on destination access outcomes for protected populations have attracted limited attention in the research literature.
 
-This study helps answer the following questions:
-* How sensitive are measures of destination access to quarterly or periodic adjustments in scheduled public transit service? 
-* How might practitioners and researchers better account for minor schedule adjustments when measuring destination access via transit?
+This study helps answer the following question:
+* To what degree do regular (often quarterly) adjustments in public transit schedules affect destination access across populations and geographies?
+* How do the destination access impacts of "minor" schedule adjustments compare with the effects of "major" service changes for which equity analyses are mandated under current policies? 
 
-[two sentences with key findings / implications]
+Analyzing eight MBTA service changes between 2022 and 2025, I found that quarterly service adjustments can have significant and disparate impacts on the numbers of valued destinations that different demographic groups can access within a given travel time budget. Small changes in trip counts or vehicle hours sometime have outsized impacts on destination access and vice versa, demonstrating the value that destination access measures can add to service change analyses by accounting for different transit modes along with location effects (how routes are spatially positioned relative to population centers and destinations) and network effects (how routes interface with each other). My findings reveal that many "minor" service changes, as defined by changes in trip frequencies or total runtime, aren't as minor as they seem, and that measures of destination access provide a useful high-level framework for transit agencies to continuously assess how both large- and small-scale changes in service work to either reinforce or counteract existing inequities.
 
 ## Data Sources and Methods
 
-I utilized open-source datasets and R packages to measure job access via transit for a series of dates across multiple metro areas using block-level population and jobs data from the US Census, archived transit schedules in the General Transit Feed Specification (GTFS) format, and walking routes from OpenStreetMap.
+The eight MBTA service changes I studied consisted of 6 smaller-scale quarterly service changes that occurred between 2 larger MBTA projects: the opening of the Green Line Extension (GLX) Medford Branch in December 2022 and the implementation of Phase 1 of the Bus Network Redesign (BNR) in December 2025. Choosing representative before and after dates for each service change required some preliminary analysis, because MBTA service during this time period included many temporary service diversions (for example, rail service being replaced by shuttle buses to accommodate track work) which could confound my analysis of more enduring service adjustments depending on the dates I chose.
 
-[image TBD]
+Thus, I first calculated the start and end of service, number of trips, and total transit vehicle runtimes and distances for each day across multiple years of General Transit Feed Specification (GTFS) feeds. Using these metrics, I chose before and after dates for each quarterly change that either had minimal or roughly equivalent rail replacement bus service before and after each change. These kinds of "quantity-of-service" measures also helped me place my main analysis of destination access changes into context, since they are the kinds of metrics that transit agencies typically use to identify whether a service change is "major" or not for a particular route or mode. Total MBTA runtime on non-temporary services, a proxy for overall quantity of transit service, was flat or declining in late 2022 and 2023, before starting to steadily climb in 2024 as the agency made progress on its Track Improvement Program and grew its bus operator headcount.
 
-All of the code for our data processing and model building steps is available on the project's Github repository.
+![Chart of Daily Scheduled MBTA Vehicle Runtime by Route Category (Tuesdays, January 2019 to January 2025)](docs/assets/img/practicum_runtime_chart.png)
+
+To measure the number of jobs accessible within 60 minutes of journey time via public transit and walking on a given service date, I processed block-level population and jobs data from the US Census, archived transit schedules in the GTFS format, and walking routes from OpenStreetMap in order to perform origin-destination network analyses using the R5 routing engine. I completed all data processing and analysis steps in R, and all of my code is  available on [the project's Github repository](https://github.com/mciethan/transit-destination-access).
 
 ## Results and Analysis
 
-[results, more images, and more policy implications]
+The overall trend of transit job access in the MBTA service area generally aligns with the aforementioned trend in the total quantity of service, with the number of reachable jobs for the average MBTA resident declining in the first half of 2023 and remaining effectively flat from July 2023 to July 2024 before starting to recover in fall 2024. On the chart below, the line represents what is reachable within 60 minutes of transit & walking time for typical departure times between 7:30am and 8:00am on a Tuesday. The gray area around the line represents the variability associated with the exact choice of departure time within that half-hour window, since one's exact timing can result in more or less waiting time for transit vehicles.
+
+![](docs/assets/img/practicum_avg_chart.png)
+
+My full report delves deeper into different kinds of variation within these average levels of job access, detailing how service changes to the frequencies and speeds of different kinds of transit routes affect the distributions of destination access across neighborhoods and populations. One important takeaway of my findings is that for non-white residents in the MBTA service area, job access tends to change more sharply in response to service changes than for white residents, with some changes resulting in relatively large racial disparities in job access impacts. I conducted ANOVA analyses with Tukey post-hoc tests to confirm the statistical significance of these disparities, and the standard error whiskers in the chart below give a visual sense for the precision of the average changes in job access for white and non-white residents per service change, which is based on data at the granular level of census blocks. 
+
+![Chart of Average Changes in Job Access by Race & Ethnicity for MBTA Service Changes](docs/assets/img/practicum_chg_raceethn_errorbars.png)
+
+My case study of MBTA service changes shows that when "minor" changes in trips and revenue vehicle hours are applied to many routes, they can add up to yield larger changes in destination access outcomes than "major" changes on a small number of routes, both on average and on aggregate. This highlights a gap in current Title VI policies defined by the FTA, which only require transit agencies to analyze the potential disparate impacts of a subset of "major" changes. Ultimately, I argue that for future Title VI policies to better serve their purpose of ensuring that transit service changes promote social equity, they should abandon the use of narrow quantity-of-service thresholds for determining which service changes merit analysis of disparate impacts. Instead, they should require continuous evaluation of outcome measures that incorporate differences in transit routes along with location and network effects, such as destination access, to determine which service changes require additional justification or mitigation based on their disparate impacts. 
