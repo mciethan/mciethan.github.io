@@ -26,7 +26,7 @@ I also built an R script to generate descriptive statistics of transit frequenci
 
 ## Results and Analysis
 
-In June 2022, the MBTA increased the median time between trains on each of its subway lines by 2-4 minutes each in order to address safety hazards identified by an FTA investigation. After these service cuts, the average study area resident had access to 8.9% fewer jobs via public transit than they did before the cuts, and a full quarter of residents lost access to more than 18.3% of the jobs they could previously reach in 30 minutes. Job access losses were relatively equal across racial/ethnic groups in absolute terms, reflecting the "across-the-board" nature of the cuts, but in relative terms, job access impacts were disproportionately borne by Black residents, who had lower levels of job access via transit prior to the cuts.
+In June 2022, the MBTA cut service and increased median wait times between trains on each of its subway lines by 2-4 minutes each in order to address safety hazards identified by an FTA investigation. After these service cuts, the average study area resident had access to 8.9% fewer jobs via public transit wihin 30 minutes than they did before the cuts, and a full quarter of residents lost access to more than 18.3% of the jobs they could previously reach. Job access losses were relatively equal across racial/ethnic groups in absolute terms, reflecting the "across-the-board" nature of the cuts, but in relative terms, job access impacts were disproportionately borne by Black residents, who also had lower levels of job access via transit prior to the cuts.
 
 *<p align="center">Table 2: Average Job Access by Race/Ethnicity</p>*
 
@@ -42,7 +42,7 @@ In June 2022, the MBTA increased the median time between trains on each of its s
 
 The highly unequal distribution of job access losses from the June 2022 service cuts is most starkly illustrated in geographic terms. The most outlying and the most central neighborhoods saw low to modest losses, but in some neighborhoods near the termini of the MBTA's Red and Green Lines, the number of jobs residents could reach within 30 minutes via transit and walking fell by 150,000 or more, often representing large majorities of the jobs they could previously access. 
 
-To put these numbers into perspective, no neighborhoods gained access to more than 25,000 additional jobs within 30 minutes via transit and walking thanks opening of the Medford Branch from the MBTA's Green Line Extension (GLX), a multi-billion dollar project which brought direct light rail service to places that previously only had bus.
+To put these numbers into perspective, no neighborhoods gained access to more than 25,000 additional jobs within 30 minutes via transit and walking directly after the opening of the Medford Branch from the MBTA's Green Line Extension (GLX), a multi-billion dollar project which brought direct light rail service to neighborhoods that previously only had bus service.
 
 | June 2022 MBTA subway frequency cuts | December 2022 opening of GLX Medford Branch |
 | --- | --- |
