@@ -48,7 +48,7 @@ public transit schedules, US Census demographic and jobs data, City of Boston li
 
 #### __View full project__: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
 
-## Destination Access: Part 1
+## Destination Access (Part 1)
 
 Given transportation’s fundamental purpose of connecting people to valued destinations, transportation systems and investments are increasingly measured by access (how many destinations they enable people to reach), rather than only by mobility (more and faster travel).
 
@@ -68,14 +68,14 @@ public transit schedules (GTFS), US Census demographic and jobs data, OpenStreet
 
 #### __View full project__: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
 
-## Destination Access: Part 2
+## Destination Access (Part 2)
 
-Expanding on this line of work, I performed a more systematic investigation of the changes in job access resulting from the regular and seemingly "minor" schedule adjustments that transit agencies regularly make, revealing that:
+Expanding on this line of work, I performed a more systematic investigation of the changes in job access resulting from the seemingly "minor" schedule adjustments that transit agencies implement on a regular basis, revealing that:
 
 * quarterly adjustments to transit vehicle frequencies and timings produce substantial and demographically disparate differences in job access
 * existing policy thresholds defining when a service change is "major" enough to require analysis of social equity impacts may be too narrow 
 
-The maps below illustrate how eight consecutive MBTA service adjustments affected the numbers of jobs accessible within 60 minutes of transit + walking for each census block in the MBTA service area. Only the December 2022 opening of the Medford branch of the Green Line Extension (GLX) and the December 2024 implementation of Phase 1 of the Bus Network Redesign (BNR) were considered "major" changes under existing policy.
+The maps below illustrate how eight consecutive MBTA service adjustments affected the numbers of jobs accessible within 60 minutes of transit + walking for census blocks in the MBTA service area. Only the December 2022 opening of the Medford branch of the Green Line Extension (GLX) and the December 2024 implementation of Phase 1 of the Bus Network Redesign (BNR) were considered "major" changes under existing policy.
 
 ![Maps of Changes in Job Access via Transit due to Quarterly MBTA Service Changes](docs/assets/img/practicum_facetmap.png)
 
