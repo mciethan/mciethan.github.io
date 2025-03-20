@@ -58,13 +58,13 @@ I compared how many jobs people could access via MBTA transit service before and
 
 Using demographic data from the decennial census, I found that non-Hispanic Black residents not only had the lowest average existing access to jobs within 30 minutes of transit + walking travel time, but also experienced the steepest declines in average job access due to the June 2022 service cuts.
 
-![Chart of Change in Average Job Access by Race/Ethnicity](docs/assets/img/access_chg_raceethn.png)
+![Chart of Change in Average Job Access by Race/Ethnicity](docs/assets/img/access_chg_raceethn_errorbars.png)
 
 #### __Key Methods__:
 origin-destination network analysis (transit + walking) at the census block level using ArcGIS Pro workflow; cumulative job access
 
 #### __Key data sources__:
-public transit schedules (GTFS), US Census demographic and jobs data, OpenStreetMap walking network data
+public transit schedules (GTFS), block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data
 
 #### __View full project__: [Measuring the Effects of Public Transit Operations on Job Access in Boston](https://mciethan.github.io/project2.html)
 
@@ -77,12 +77,14 @@ Expanding on this line of work, I performed a more systematic investigation of t
 
 The maps below illustrate how eight consecutive MBTA service adjustments affected the numbers of jobs accessible within 60 minutes of transit + walking for census blocks in the MBTA service area. Only the December 2022 opening of the Medford branch of the Green Line Extension (GLX) and the December 2024 implementation of Phase 1 of the Bus Network Redesign (BNR) were considered "major" changes under existing policy.
 
+#### Changes in jobs reachable in 60 min. via transit per census block for 50th percentile departure times from 7:30-8:00am on Tuesdays, Dec. 2022 to Jan. 2025
+
 ![Maps of Changes in Job Access via Transit due to Quarterly MBTA Service Changes](docs/assets/img/practicum_facetmap.png)
 
 #### __Key Methods__:
 origin-destination network analysis (transit + walking) at the census block level using R scripting; cumulative job access
 
 #### __Key data sources__:
-public transit schedules, US Census demographic and jobs data, OpenStreetMap walking network data
+public transit schedules, block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data
 
 #### __View full project__: [Measuring the Destination Access Impacts of Public Transit Service Adjustments](https://mciethan.github.io/project3.html)
