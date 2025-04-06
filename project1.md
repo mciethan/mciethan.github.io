@@ -52,4 +52,4 @@ Some of the model's largest under-predictions of ridership were at the Airport a
 
 ![Figure 4: Map of Prediction Errors (Fall 2023 weekday boardings, full base model)](docs/assets/img/ridership_figure4.png)
 
-While our models' absolute errors in predicting station-level ridership are still likely too large for them to be directly useful in transit planning or operations applications, our findings echo previous literature about not just the ridership impacts of transit service characteristics like frequency and connectivity, but also the potentially increasing importance of built-environment factors like mixed land uses and walkability around transit stations.
+While our models' absolute errors in predicting station-level ridership are likely still too large for them to be directly useful in transit planning or operations applications, our findings echo previous literature about not just the ridership impacts of transit service characteristics like frequency and connectivity, but also the potentially increasing importance of built-environment factors like mixed land uses and walkability around transit stations.
