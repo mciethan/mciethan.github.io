@@ -12,7 +12,7 @@ Public transit agencies make regular adjustments to scheduled vehicle frequencie
 
 For example, current Title VI policies only require US-based transit agencies to examine possible disparate impacts on protected populations for a subset of service changes that are considered "major", as defined by percentage change thresholds in quantity-of-service measures like revenue vehicle hours or trip frequencies on a given route or mode. Smaller, more regular changes in transit service typically do not meet agency-defined Title VI thresholds, and their impacts on destination access outcomes for protected populations have attracted limited attention in the research literature.
 
-This study helps answer the following question:
+This study helps answer the following questions:
 * To what degree do regular (often quarterly) adjustments in public transit schedules affect destination access across populations and geographies?
 * How do the destination access impacts of "minor" schedule adjustments compare with the effects of "major" service changes for which equity analyses are mandated under current policies? 
 
@@ -34,7 +34,7 @@ The number of jobs reachable via transit for the average MBTA resident declined 
 
 ![](docs/assets/img/practicum_avg_chart.png)
 
-My full report reveals that many kinds of variation exist within these average levels of job access, with service changes to the frequencies and speeds of different kinds of transit routes having different effects on the distributions of destination access across neighborhoods and populations. One important policy takeaway is that for non-white residents in the MBTA service area, job access tends to change more sharply in response to service changes than for white residents, with some changes resulting in relatively large racial disparities in job access impacts. I conducted ANOVA analyses with Tukey post-hoc tests which confirmed the statistical significance of these racial disparities, but the standard error whiskers in the chart below give a visual sense for the precision of the average changes in job access for white and non-white residents per service change. 
+My [full report](https://docs.google.com/document/d/1rZ53ZGgcFSwCZZcrQuP_10jydLrTczdVK5aa1SwKZlw/edit?usp=sharing) reveals that many kinds of variation exist within these average levels of job access, with service changes to the frequencies and speeds of different kinds of transit routes having different effects on the distributions of destination access across neighborhoods and populations. One important policy takeaway is that for non-white residents in the MBTA service area, job access tends to change more sharply in response to service changes than for white residents, with some changes resulting in relatively large racial disparities in job access impacts. I conducted ANOVA analyses with Tukey post-hoc tests which confirmed the statistical significance of these racial disparities, but the standard error whiskers in the chart below give a visual sense for the precision of the average changes in job access for white and non-white residents per service change. 
 
 ![Chart of Average Changes in Job Access by Race & Ethnicity for MBTA Service Changes](docs/assets/img/practicum_chg_raceethn_errorbars.png)
 
