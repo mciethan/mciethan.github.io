@@ -41,10 +41,10 @@ I analyzed some of the factors that predict Massachusetts Bay Transportation Aut
 ![Figure 1: Correlation Heatmap for Candidate Variables for Fall 2023 Full-Network Models](docs/assets/img/ridership_figure1.png)
 
 #### __Key Methods__:
-regression modeling at the station level using R and Python scripting
+Regression modeling at the station level using R and Python scripting
 
 #### __Key data sources__:
-public transit schedules (GTFS), US Census demographic and jobs data, City of Boston license data, MassGIS parcel data, National Center for Education Statistics college enrollment data
+Public transit schedules (GTFS), US Census demographic and jobs data, City of Boston license data, MassGIS parcel data, National Center for Education Statistics college enrollment data.
 
 #### __View full project__: [Using Open Data to Enhance Station-Level Ridership Models](https://mciethan.github.io/project1.html)
 
@@ -61,10 +61,10 @@ Using demographic data from the decennial census, I found that non-Hispanic Blac
 ![Chart of Change in Average Job Access by Race/Ethnicity](docs/assets/img/access_chg_raceethn_errorbars.png)
 
 #### __Key Methods__:
-origin-destination network analysis (transit + walking) at the census block level using ArcGIS Pro workflow; cumulative job access measures
+Origin-destination network analysis (transit + walking) at the census block level using ArcGIS Pro workflow; cumulative job access measures.
 
 #### __Key data sources__:
-public transit schedules (GTFS), block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data
+Public transit schedules (GTFS), block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data.
 
 #### __View full project__: [Measuring the Effects of Public Transit Frequencies on Job Access in Boston](https://mciethan.github.io/project2.html)
 
@@ -82,9 +82,9 @@ The maps below illustrate how eight consecutive MBTA service adjustments affecte
 ![Maps of Changes in Job Access via Transit due to Quarterly MBTA Service Changes](docs/assets/img/practicum_facetmap.png)
 
 #### __Key Methods__:
-origin-destination network analysis (transit + walking) at the census block level using R scripting; cumulative job access measures
+Origin-destination network analysis (transit + walking) at the census block level using R scripting; cumulative job access measures.
 
 #### __Key data sources__:
-public transit schedules (GTFS), block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data
+Public transit schedules (GTFS), block-level demographic (decennial census) and jobs (LODES) data from the US Census, OpenStreetMap walking network data.
 
 #### __View full project__: [Measuring the Destination Access Impacts of Public Transit Service Adjustments](https://mciethan.github.io/project3.html)
